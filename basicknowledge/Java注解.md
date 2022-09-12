@@ -677,19 +677,6 @@ public class TableCreator {
 }
 ```
 
-**测试结果**
-
-```java
-Table Creation SQL for com.thoughtoverflow.annotation.sqldemo.Member is :
-CREATE TABLE MEMBER(
-    ID VARCHAR(50) NOT NULL PRIMARY KEY,
-    NAME VARCHAR(30) NOT NULL,
-    AGE INT NOT NULL,
-    DESCRIPTION VARCHAR(150));
-```
-
-
-
 ### 3、注解处理器APT(Annotation Processor Tool)
 
 #### 3.1 概念
