@@ -42,7 +42,7 @@ IO调用由进程发起（用户态），IO执行是系统内核的工作（内�
 >
 > - 同步阻塞IO：`Blocking IO`，传统IO模型
 > - 同步非阻塞IO：`Non-blocking IO`，默认创建的socket都是阻塞的，非阻塞IO要求socket被设置为NONBLOCK
-> - IO多路复用：`IO Multiplexing`，异步阻塞IO，使用Reactor设计模式，例如Java中的Selector、linux中的epoll
+> - IO多路复用：`IO Multiplexing`，并发式非阻塞IO，使用Reactor设计模式，例如Java中的Selector、Linux中的epoll
 > - 异步IO：`Aysnchronous IO`，异步非阻塞IO，使用Proactor设计模式
 
 ##### （1）同步阻塞IO模型

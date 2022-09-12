@@ -688,25 +688,6 @@ CREATE TABLE MEMBER(
     DESCRIPTION VARCHAR(150));
 ```
 
-
-
-### 3、注解处理器APT(Annotation Processor Tool)
-
-#### 3.1 概念
-
-注解处理器是(Annotation Processor)是`javac`的一个工具，用来在编译时扫描和编译和处理注解(Annotation)。一个注解处理器它以Java代码或者(编译过的字节码)作为输入，生成文件(通常是java文件)。这些生成的java文件不能修改，并且会同其手动编写的java代码一样会被`javac`编译。过程总的来说为：==标记了注解的类，变量等作为输入内容，经过注解处理器处理，生成想要生成的java代码。==
-
-#### 3.2 运行方式以及运行阶段
-
-`.java -> javac -> .class`
-
-- `.java`文件需要通过`javac`编译成`.class`文件
-- 采集所有注解信息
-- 将采集的信息包装成元素节点Element
-- <font color='red'>由`javac`去调起注解处理器</font>，执行自定义的注解处理程序
-- 注解处理程序实在`.class`文件被`javac`编译成字节码文件之前执行的
-
-
 ### Reference
 
 [《Java核心技术 卷Ⅱ：高级特性》第八章 脚本、编译和注解处理](https://item.jd.com/12791368.html)
