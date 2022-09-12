@@ -677,6 +677,19 @@ public class TableCreator {
 }
 ```
 
+**测试结果**
+
+```java
+Table Creation SQL for com.thoughtoverflow.annotation.sqldemo.Member is :
+CREATE TABLE MEMBER(
+    ID VARCHAR(50) NOT NULL PRIMARY KEY,
+    NAME VARCHAR(30) NOT NULL,
+    AGE INT NOT NULL,
+    DESCRIPTION VARCHAR(150));
+```
+
+
+
 ### 3、注解处理器APT(Annotation Processor Tool)
 
 #### 3.1 概念
@@ -694,15 +707,8 @@ public class TableCreator {
 - 注解处理程序实在`.class`文件被`javac`编译成字节码文件之前执行的
 
 
-
-### 4、相关面试题
-
-
-
 ### Reference
 
 [《Java核心技术 卷Ⅱ：高级特性》第八章 脚本、编译和注解处理](https://item.jd.com/12791368.html)
 
 [深入理解Java注解类型(@Annotation)](https://blog.csdn.net/javazejian/article/details/71860633)
-
-[菜鸟教程：Java 注解（Annotation）](
