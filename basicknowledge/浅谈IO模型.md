@@ -69,7 +69,7 @@ IO多路复用，系统为我们提供一类函数，可以监听<font color='re
 
 ***select***：
 
-![IO模型-IO多路复用](https://markdown-img-ct.oss-cn-beijing.aliyuncs.com/img/IO%E6%A8%A1%E5%9E%8B-%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9EIO.png)
+![IO模型-IO多路复用](https://markdown-img-ct.oss-cn-beijing.aliyuncs.com/img/IO%E6%A8%A1%E5%9E%8B-IO%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8.png)
 
 ##### （4）信号驱动模型
 
